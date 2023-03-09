@@ -1,0 +1,134 @@
+
+@font-face {
+    font-family: "Hangyaku";
+    src: url("../fonts/Hangyaku.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: "ComBack";
+    src: url("../fonts/ComBack.woff2") format("woff2")
+}
+@font-face {
+    font-family: "Japan";
+    src: url("../fonts/Japan.woff2") format("woff2")
+}
+body {
+    background-image: url('../img/japan.jpg');
+    background-size:auto;
+    font-family: "ComBack";
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .task-title {
+    font-size: 2em;
+    margin: 0 0 1em;
+    text-align: center;
+  }
+  
+  .input-field {
+    margin-bottom: 1em;
+    font-family: inherit;
+  }
+  
+  .task-input {
+    width: 97%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+    font-family: inherit;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #bc2f3b;;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  
+  .collection {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .collection li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  
+  .collection li span {
+    margin-right: 1em;
+  }
+  
+  .clear-tasks {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #bc2f3b;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+ 
+
+  .filter-task-block{
+    padding-top: 50px;
+  }
+  
+  .filter-input{
+    width: 97%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+    font-family: inherit;
+  }
+  .task{
+    font-family: inherit;
+  }
+  .text{
+    flex: 70%;
+    overflow: hidden;
+  }
+  .clear-tasks {
+    font-family: inherit;
+  }
+ 
+
+  .remove-task:hover{
+    scale:1.2;
+    cursor: pointer;
+    
+  }
+
+  .edit-task:hover{
+    scale:1.2;
+    cursor: pointer;
+
+  }
+  
