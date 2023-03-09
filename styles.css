@@ -13,7 +13,7 @@
     src: url("./fonts/Japan.woff2") format("woff2")
 }
 body {
-    background-image: url('.../img/japan.jpg');
+    background-image: url('./img/japan.jpg');
     background-size:auto;
     font-family: "ComBack";
     color: #fff;
