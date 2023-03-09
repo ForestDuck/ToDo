@@ -1,19 +1,19 @@
 
 @font-face {
     font-family: "Hangyaku";
-    src: url("../fonts/Hangyaku.woff2") format("woff2")
+    src: url("./fonts/Hangyaku.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "ComBack";
-    src: url("../fonts/ComBack.woff2") format("woff2")
+    src: url("./fonts/ComBack.woff2") format("woff2")
 }
 @font-face {
     font-family: "Japan";
-    src: url("../fonts/Japan.woff2") format("woff2")
+    src: url("./fonts/Japan.woff2") format("woff2")
 }
 body {
-    background-image: url('../img/japan.jpg');
+    background-image: url('.../img/japan.jpg');
     background-size:auto;
     font-family: "ComBack";
     color: #fff;
